@@ -1,0 +1,25 @@
+<L1.处理消息.1234>
+process 1234 begin
+xxxx
+<L2.处理消息.12>
+process 12 begin
+xxxx
+<L3.操作Redis数据库12>
+connect to database Redis 12
+select * from table;
+do something
+disconnect database
+</L3.操作Redis数据库12>
+xxx
+process 12 end
+</L2.处理消息.12>
+xxxx
+<L2.处理消息.34>
+process 34 begin
+xxx
+process 34 end
+</L2.处理消息.34>
+xxxx
+xxx
+process 1234 end
+</L1.处理消息.1234>

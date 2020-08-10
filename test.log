@@ -1,0 +1,17 @@
+process 1234 begin
+xxxx
+process 12 begin
+xxxx
+connect to database Redis 12
+select * from table;
+do something
+disconnect database
+xxx
+process 12 end
+xxxx
+process 34 begin
+xxx
+process 34 end
+xxxx
+xxx
+process 1234 end
