@@ -1,12 +1,12 @@
 <L1.处理消息.1234 interval="108s">
 [01:09:01] process 1234 begin
-<单行注释/>
+<单行注释 interval="2s" between="1"/>
 [01:09:03] xxxx
 <L2.处理消息.12 interval="18s">
 [01:09:04] process 12 begin
-<单行注释/>
+<单行注释 interval="2s" between="2"/>
 [01:09:05] xxxx
-<L3.操作Redis数据库12 interval="6s">
+<L3.操作Redis数据库12>
 [01:09:07] connect to database Redis 12
 [01:09:08] select * from table;
 [01:09:09] do something
@@ -15,14 +15,14 @@
 [01:09:16] xxx
 [01:09:22] process 12 end
 </L2.处理消息.12>
-<单行注释/>
+<单行注释 interval="25s" between="7"/>
 [01:09:30] xxxx
 <L2.处理消息.34 interval="17s">
 [01:09:43] process 34 begin
 [01:09:57] xxx
 [01:10:00] process 34 end
 </L2.处理消息.34>
-<单行注释/>
+<单行注释 interval="38s" between="4"/>
 [01:10:08] xxxx
 [01:10:34] xxx
 [01:10:49] process 1234 end
